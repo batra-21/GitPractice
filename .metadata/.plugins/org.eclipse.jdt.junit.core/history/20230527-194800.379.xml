@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="PracticeBDDFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Runner.TestRunner" time="0.117">
+    <testsuite name="Login Test" time="0.117">
+      <testcase name="Login Test Scenario" classname="Login Test" time="0.117">
+        <error>java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'&#13;
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:116)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:111)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:101)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)&#13;
+	at StepDefinitions.LoginStepDefinition.user_is_already_on_home_page(LoginStepDefinition.java:23)&#13;
+	at ✽.User is already on home page(file:///E:/Practice%20Cucumber/PracticeBDDFramework/src/main/java/Features/Login.feature:22)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

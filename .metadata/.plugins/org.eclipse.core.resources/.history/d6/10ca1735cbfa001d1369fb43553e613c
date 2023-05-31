@@ -1,0 +1,21 @@
+package Runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import io.cucumber.junit.*;
+
+
+
+@RunWith(Cucumber.class)
+ @CucumberOptions(
+		 features= "/PracticeBDDFramework/src/main/java/Features/Login.feature",
+		 glue = {"LoginStepDefinition"},
+		 format = {"pretty","html:test-output"}
+		 
+		 
+		 )
+
+public class TestRunner {
+
+}
